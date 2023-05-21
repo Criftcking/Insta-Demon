@@ -21,4 +21,4 @@ Esta es una herramienta para Buscar Cuentas de Instagram y Recopilar la informac
 4- Publicacion_URL: https://www.instagram.com/p/{ID}/
 <br>
 <h3>Imagenes</h3>
-<img src="images/Program.jpg">
+<img src="Program.jpg">
