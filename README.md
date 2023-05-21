@@ -9,9 +9,13 @@ Esta es una herramienta para Buscar Cuentas de Instagram y Recopilar la informac
 3- Publicaciones:
 <br>
 4- Biografia:
-
+<br>
 ---Random_Publicacion_Info---
-1- Comentarios: 
+<br>
+1- Comentarios:
+<br>
 2- Likes:
-3- Hastags: 
+<br>
+3- Hastags:
+<br>
 4- Publicacion_URL: https://www.instagram.com/p/{ID}/
