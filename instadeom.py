@@ -157,7 +157,7 @@ def check():
             
         
         else:
-            print("Usuario No Encontrado")
+            print("Usuario No Encontrado o No Existe")
 
     
 
