@@ -22,3 +22,5 @@ Esta es una herramienta para Buscar Cuentas de Instagram y Recopilar la informac
 <br>
 <h3>Imagenes</h3>
 <img src="Program.jpg">
+<br>
+<img src="page.jpg">
