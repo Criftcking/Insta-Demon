@@ -1,7 +1,7 @@
 # Insta-Demon
 Esta es una herramienta para Buscar Cuentas de Instagram y Recopilar la informacion de un Perfil
 
-<h1>Datos Que Recopila<\h1>
+<h1>Datos Que Recopila</h1>
 1- Username:
 2- Seguidores: 
 3- Publicaciones: 
