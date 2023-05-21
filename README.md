@@ -24,3 +24,9 @@ Esta es una herramienta para Buscar Cuentas de Instagram y Recopilar la informac
 <img src="Program.jpg">
 <br>
 <img src="page.jpg">
+<br>
+<br>
+#Donaciones
+<h2>Bitcoin: 13MEq6AABjuzHZEprcRWDckS1PijxYNrPN</h2>
+
+
