@@ -1,10 +1,8 @@
 import os
 import requests
-import colorama
 from colorama import Fore, Style
-import json
-import re
 import pyfiglet
+
 
 def check():
     
