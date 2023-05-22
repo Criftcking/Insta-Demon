@@ -149,6 +149,7 @@ def check():
                 print("INFO URL: "+Fore.BLUE+f"https://www.instagram.com/{valore}/"+Fore.RESET)
                 print()
                 input(Fore.YELLOW+"Presiona 'Enter' Para Reiniciar"+Fore.RESET)
+                check()
             else:
                 pass
             
