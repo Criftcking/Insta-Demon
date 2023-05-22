@@ -20,6 +20,11 @@ Esta es una herramienta para Buscar Cuentas de Instagram y Recopilar la informac
 <br>
 4- Publicacion_URL: https://www.instagram.com/p/{ID}/
 <br>
+<h1>Instalacion</h1>
+<br>
+<h3>bash install.sh</h3>
+<h3>pip install -r requirements.txt</h3>
+<h3>python instademon.py</h3>
 <h3>Imagenes</h3>
 <img src="Program.jpg">
 <br>
