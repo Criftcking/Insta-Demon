@@ -2,7 +2,9 @@ import os
 import requests
 from colorama import Fore, Style
 import pyfiglet
+import cloudscraper
 
+cl = cloudscraper.create_scraper()
 
 def check():
     
@@ -39,7 +41,7 @@ def check():
     }
     
     
-    response = requests.post(url=url, data=data)
+    response = cl.post(url=url, data=data)
     texto = response.text
     if "Couldn't find profile data" in response.text:
         os.system("clear")
