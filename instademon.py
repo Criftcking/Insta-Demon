@@ -4,12 +4,19 @@ from colorama import Fore, Style
 import pyfiglet
 import cloudscraper
 
+def limpiar():
+        if os.name == 'nt':  # Windows
+            os.system('cls')
+        else:  # Linux/Unix/Mac
+            os.system('clear')
+
+
 cl = cloudscraper.create_scraper()
 
 def check():
     
     
-    os.system("clear")
+    limpiar()
     font = pyfiglet.Figlet(font='slant')
     art = Fore.YELLOW+font.renderText('Insta Demon')+Fore.RESET #le quiero poner un nombre yy no se me ocurre nada xdd
     print(art)
@@ -44,7 +51,7 @@ def check():
     response = cl.post(url=url, data=data)
     texto = response.text
     if "Couldn't find profile data" in response.text:
-        os.system("clear")
+        limpiar()
         font = pyfiglet.Figlet(font='slant')
         art = Fore.YELLOW+font.renderText('Insta Demon')+Fore.RESET #le quiero poner un nombre yy no se me ocurre nada xdd
         print(art)
@@ -167,7 +174,7 @@ def check():
 
 
 #AHORA VA LA INTERFAZ GRAFICA |||| 
-os.system("clear")
+limpiar()
 font = pyfiglet.Figlet(font='slant')
 art = Fore.YELLOW+font.renderText('Insta Demon')+Fore.RESET #le quiero poner un nombre yy no se me ocurre nada xdd
 print(art)
